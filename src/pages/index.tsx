@@ -15,19 +15,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.grid}>
+      <main>
+        <div>
           <Link
-            href="/about"
-            className={styles.card} 
+            href="/about" 
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
-              About <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
+            <h2 >
+              About  
+            </h2> 
           </Link>
         </div>
       </main>
